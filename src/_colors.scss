@@ -27,7 +27,7 @@ $motion-blue-3: hsla(215, 60%, 50%, 1);//#3373CC
 /* UI Secondary Colors */
 /* 3.0 colors */
 /* Using www naming convention for now, should be consistent with gui */
-$ui-aqua: hsla(163, 85%, 40%, 1); // #0FBD8C Extension Primary
+$ui-aqua: hsla(161, 83%, 36%, 1); // #10A878 Extension Primary
 $ui-aqua-dark: hsla(163, 85%, 30%, 1); // #0B8E69 Extension Aqua 3
 $ui-purple: hsla(260, 100%, 70%, 1); // #9966FF Looks Primary
 $ui-purple-dark: hsla(260, 60%, 60%, 1); // #774DCB Looks Secondary
@@ -37,6 +37,7 @@ $ui-yellow: hsla(45, 100%, 50%, 1); // #FFBF00 Events Primary
 $ui-coral: hsla(350, 100%, 70%, 1); // #FF6680 More Blocks Primary
 $ui-coral-dark: hsla(350, 100%, 60%, 1); // #FF3355 More Blocks tertiary
 
+// $ui-white: hsla(0, 100%, 100%, 1); //#FFF
 $ui-white: hsla(0, 100%, 100%, 1); //#FFF
 $ui-white-15percent: hsla(0, 100%, 100%, .15); //#FFF
 $ui-light-primary: hsl(215, 100%, 95%);

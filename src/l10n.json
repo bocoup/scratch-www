@@ -2,6 +2,7 @@
     "general.accountSettings": "Account settings",
     "general.about": "About",
     "general.aboutScratch": "About Scratch",
+    "general.animateCharacter": "Animate A Character",
     "general.apiError": "Whoops, Scratch had an error.",
     "general.back": "Back",
     "general.birthMonth": "Birth Month",
@@ -21,6 +22,7 @@
     "general.conferences": "Conferences",
     "general.country": "Country",
     "general.create": "Create",
+    "general.createStory": "Create A Story",
     "general.credits": "Our Team",
     "general.donors": "Donors",
     "general.dmca": "DMCA",
@@ -115,6 +117,7 @@
     "general.music": "Music",
     "general.results": "Results",
     "general.stories": "Stories",
+    "general.talkingTales": "Talking Tales",
     "general.tutorials": "Tutorials",
 
     "general.teacherAccounts": "Teacher Accounts",

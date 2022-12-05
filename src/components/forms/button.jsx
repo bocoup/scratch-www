@@ -7,9 +7,10 @@ require('./button.scss');
 
 const Button = props => {
     const classes = classNames('button', props.className, {'forms-close-button': props.isCloseType});
+    const ButtonWrapper = props.href ? "a" : "button" 
 
     return (
-        <button
+        <ButtonWrapper href={props.href}
             className={classes}
             {...omit(props, ['className', 'children', 'isCloseType'])}
         >
@@ -25,18 +26,20 @@ const Button = props => {
                     props.children
                 ]
             }
-        </button>
+        </ButtonWrapper>
     );
 };
 
 Button.propTypes = {
     children: PropTypes.node,
     className: PropTypes.string,
+    href: PropTypes.string,
     isCloseType: PropTypes.bool
 };
 
 Button.defaultProps = {
     className: '',
+    href: undefined,
     isCloseType: false
 };
 

@@ -35,7 +35,7 @@ $base-bg: $ui-white;
     max-width: calc(100% - 2rem);
 }
 
-.ideas-button {
+.ideas-button, a.ideas-button {
     margin-right: .75rem;
     background-color: $ui-blue;
     color: $ui-white;

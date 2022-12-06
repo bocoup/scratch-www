@@ -72,20 +72,26 @@ class Ideas extends React.Component {
                 <div className="banner-wrapper">
                     <TitleBanner className="masthead ideas-banner">
                         <div className="title-banner-p">
-                            <img alt=""src="/images/ideas/masthead-illustration.svg" />
+                            <img
+                                alt=""
+                                src="/images/ideas/masthead-illustration.svg"
+                            />
                             <h1 className="title-banner-h1">
                                 <FormattedMessage id="ideas.headerMessage" />
                             </h1>
-                                <Button 
-                                    aria-label={this.props.intl.formatMessage({
-                                        id: "ideas.headerButtonMessage"
-                                    })}
-                                    href="/projects/editor/?tutorial=all"
-                                    className="ideas-button"
-                                    >
-                                    <img alt="" src="/images/ideas/bulb-icon.svg" />
-                                    <span aria-hidden="true" ><FormattedMessage id="ideas.headerButtonMessage" /></span>
-                                </Button>
+                            <Button
+                                aria-label={this.props.intl.formatMessage({
+                                    id: 'ideas.headerButtonMessage'
+                                })}
+                                href="/projects/editor/?tutorial=all"
+                                className="ideas-button"
+                            >
+                                <img
+                                    alt=""
+                                    src="/images/ideas/bulb-icon.svg"
+                                />
+                                <span aria-hidden="true" ><FormattedMessage id="ideas.headerButtonMessage" /></span>
+                            </Button>
                         </div>
                     </TitleBanner>
                 </div>
@@ -96,7 +102,10 @@ class Ideas extends React.Component {
                             className="tips-info-section tips-left"
                         >
                             <div className="ideas-image">
-                                <img alt="" src="/images/ideas/getting-started-illustration.svg" />
+                                <img
+                                    alt=""
+                                    src="/images/ideas/getting-started-illustration.svg"
+                                />
                             </div>
                             <div>
                                 <h2>
@@ -105,15 +114,19 @@ class Ideas extends React.Component {
                                 <p>
                                     <FormattedHTMLMessage id="ideas.gettingStartedText" />
                                 </p>
-                                    <Button 
-                                        aria-label={this.props.intl.formatMessage({
-                                            id: "ideas.tryIt"
-                                        })}
-                                        href="/projects/editor/?tutorial=getStarted"
-                                        className="ideas-button">
-                                        <img alt= ""src="/images/ideas/try-it-icon.svg" />
-                                        <sapn aria-hidden="true"><FormattedMessage id="ideas.tryIt" /></sapn>
-                                    </Button>
+                                <Button
+                                    aria-label={this.props.intl.formatMessage({
+                                        id: 'ideas.tryIt'
+                                    })}
+                                    href="/projects/editor/?tutorial=getStarted"
+                                    className="ideas-button"
+                                >
+                                    <img
+                                        alt=""
+                                        src="/images/ideas/try-it-icon.svg"
+                                    />
+                                    <sapn aria-hidden="true"><FormattedMessage id="ideas.tryIt" /></sapn>
+                                </Button>
                             </div>
                         </FlexRow>
                     </div>
@@ -122,10 +135,10 @@ class Ideas extends React.Component {
                     <div className="inner">
                         <section className="ttt-section">
                             <div className="ttt-head">
-                                <h2 tabindex="0">
+                                <h2 tabIndex="0">
                                     <FormattedMessage id="ideas.activityGuidesTitle" />
                                 </h2>
-                                <p tabindex="0">
+                                <p tabIndex="0">
                                     <FormattedHTMLMessage id="ideas.activityGuidesText" />
                                 </p>
                             </div>
@@ -137,14 +150,15 @@ class Ideas extends React.Component {
                                 onRequestClose={this.handleHideTTTModal}
                                 {...this.state.currentTile}
                             />
-                                <Button
-                                    aria-label={this.props.intl.formatMessage({
-                                        id: "ideas.seeAllTutorials"
-                                    })}
-                                    href="/projects/editor/?tutorial=all"
-                                    className="ideas-button wide-button">
-                                    <span aria-hidden="true"><FormattedMessage id="ideas.seeAllTutorials" /></span>
-                                </Button>
+                            <Button
+                                aria-label={this.props.intl.formatMessage({
+                                    id: 'ideas.seeAllTutorials'
+                                })}
+                                href="/projects/editor/?tutorial=all"
+                                className="ideas-button wide-button"
+                            >
+                                <span aria-hidden="true"><FormattedMessage id="ideas.seeAllTutorials" /></span>
+                            </Button>
                         </section>
                     </div>
                 </div>
@@ -161,22 +175,29 @@ class Ideas extends React.Component {
                                 <p>
                                     <FormattedHTMLMessage id="ideas.cardsText" />
                                 </p>
-                                    <Button
-                                        aria-label={this.props.intl.formatMessage({
-                                            id: "general.downloadPDF"
-                                        })}
-                                        href={this.props.intl.formatMessage({
-                                            id: 'cards.scratch-cards-allLink'
-                                        })}
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                        className="ideas-button">
-                                        <img alt="" src="/images/ideas/download-icon.svg" />
-                                        <span aria-hidden="true"><FormattedMessage id="general.downloadPDF" /></span>
-                                    </Button>
+                                <Button
+                                    aria-label={this.props.intl.formatMessage({
+                                        id: 'general.downloadPDF'
+                                    })}
+                                    href={this.props.intl.formatMessage({
+                                        id: 'cards.scratch-cards-allLink'
+                                    })}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    className="ideas-button"
+                                >
+                                    <img
+                                        alt=""
+                                        src="/images/ideas/download-icon.svg"
+                                    />
+                                    <span aria-hidden="true"><FormattedMessage id="general.downloadPDF" /></span>
+                                </Button>
                             </div>
                             <div className="tips-info-body tips-illustration">
-                                <img alt="" src="/images/ideas/cards-illustration.svg" />
+                                <img
+                                    alt=""
+                                    src="/images/ideas/cards-illustration.svg"
+                                />
                             </div>
                         </FlexRow>
                     </div>
@@ -206,11 +227,14 @@ class Ideas extends React.Component {
                                 <p>
                                     <Button
                                         aria-label={this.props.intl.formatMessage({
-                                            id: "ideas.starterProjectsButton"
+                                            id: 'ideas.starterProjectsButton'
                                         })}
-                                        href="/starter_projects" 
-                                        className="ideas-button">
-                                        <span aria-hidden="true"><FormattedMessage id="ideas.starterProjectsButton" /></span>
+                                        href="/starter_projects"
+                                        className="ideas-button"
+                                    >
+                                        <span aria-hidden="true">
+                                            <FormattedMessage id="ideas.starterProjectsButton" />
+                                        </span>
                                     </Button>
                                 </p>
                             </div>

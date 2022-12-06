@@ -7,6 +7,7 @@ require('./ttt-tile.scss');
 
 const TTTTile = props => (
     <div
+        tabindex="0"
         className={classNames('ttt-tile', props.className)}
         onClick={props.onClick}
     >

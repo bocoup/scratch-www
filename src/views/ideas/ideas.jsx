@@ -73,7 +73,6 @@ class Ideas extends React.Component {
                     <TitleBanner className="masthead ideas-banner">
                         <div className="title-banner-p">
                             <img
-                                alt=""
                                 src="/images/ideas/masthead-illustration.svg"
                             />
                             <h1 className="title-banner-h1">
@@ -103,7 +102,6 @@ class Ideas extends React.Component {
                         >
                             <div className="ideas-image">
                                 <img
-                                    alt=""
                                     src="/images/ideas/getting-started-illustration.svg"
                                 />
                             </div>
@@ -195,7 +193,6 @@ class Ideas extends React.Component {
                             </div>
                             <div className="tips-info-body tips-illustration">
                                 <img
-                                    alt=""
                                     src="/images/ideas/cards-illustration.svg"
                                 />
                             </div>
@@ -213,7 +210,6 @@ class Ideas extends React.Component {
                         >
                             <div className="ideas-image">
                                 <img
-                                    alt=""
                                     src="/images/ideas/starter-projects-illustration.svg"
                                 />
                             </div>

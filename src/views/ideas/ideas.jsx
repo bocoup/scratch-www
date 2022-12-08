@@ -5,7 +5,8 @@ const injectIntl = require('react-intl').injectIntl;
 const intlShape = require('react-intl').intlShape;
 const React = require('react');
 
-const Button = require('../../components/forms/button.jsx');
+// const Button = require('../../components/forms/button.jsx');
+const AnchorButton = require('../../components/forms/anchorbutton.jsx');
 const FlexRow = require('../../components/flex-row/flex-row.jsx');
 const MasonryGrid = require('../../components/masonrygrid/masonrygrid.jsx');
 const TitleBanner = require('../../components/title-banner/title-banner.jsx');
@@ -78,7 +79,7 @@ class Ideas extends React.Component {
                             <h1 className="title-banner-h1">
                                 <FormattedMessage id="ideas.headerMessage" />
                             </h1>
-                            <Button
+                            <AnchorButton
                                 aria-label={this.props.intl.formatMessage({
                                     id: 'ideas.headerButtonMessage'
                                 })}
@@ -90,7 +91,7 @@ class Ideas extends React.Component {
                                     src="/images/ideas/bulb-icon.svg"
                                 />
                                 <span aria-hidden="true" ><FormattedMessage id="ideas.headerButtonMessage" /></span>
-                            </Button>
+                            </AnchorButton>
                         </div>
                     </TitleBanner>
                 </div>
@@ -112,7 +113,7 @@ class Ideas extends React.Component {
                                 <p>
                                     <FormattedHTMLMessage id="ideas.gettingStartedText" />
                                 </p>
-                                <Button
+                                <AnchorButton
                                     aria-label={this.props.intl.formatMessage({
                                         id: 'ideas.tryIt'
                                     })}
@@ -124,7 +125,7 @@ class Ideas extends React.Component {
                                         src="/images/ideas/try-it-icon.svg"
                                     />
                                     <sapn aria-hidden="true"><FormattedMessage id="ideas.tryIt" /></sapn>
-                                </Button>
+                                </AnchorButton>
                             </div>
                         </FlexRow>
                     </div>
@@ -148,7 +149,7 @@ class Ideas extends React.Component {
                                 onRequestClose={this.handleHideTTTModal}
                                 {...this.state.currentTile}
                             />
-                            <Button
+                            <AnchorButton
                                 aria-label={this.props.intl.formatMessage({
                                     id: 'ideas.seeAllTutorials'
                                 })}
@@ -156,7 +157,7 @@ class Ideas extends React.Component {
                                 className="ideas-button wide-button"
                             >
                                 <span aria-hidden="true"><FormattedMessage id="ideas.seeAllTutorials" /></span>
-                            </Button>
+                            </AnchorButton>
                         </section>
                     </div>
                 </div>
@@ -173,7 +174,7 @@ class Ideas extends React.Component {
                                 <p>
                                     <FormattedHTMLMessage id="ideas.cardsText" />
                                 </p>
-                                <Button
+                                <AnchorButton
                                     aria-label={this.props.intl.formatMessage({
                                         id: 'general.downloadPDF'
                                     })}
@@ -189,7 +190,7 @@ class Ideas extends React.Component {
                                         src="/images/ideas/download-icon.svg"
                                     />
                                     <span aria-hidden="true"><FormattedMessage id="general.downloadPDF" /></span>
-                                </Button>
+                                </AnchorButton>
                             </div>
                             <div className="tips-info-body tips-illustration">
                                 <img
@@ -221,7 +222,7 @@ class Ideas extends React.Component {
                                     <FormattedHTMLMessage id="ideas.starterProjectsText" />
                                 </p>
                                 <p>
-                                    <Button
+                                    <AnchorButton
                                         aria-label={this.props.intl.formatMessage({
                                             id: 'ideas.starterProjectsButton'
                                         })}
@@ -231,7 +232,7 @@ class Ideas extends React.Component {
                                         <span aria-hidden="true">
                                             <FormattedMessage id="ideas.starterProjectsButton" />
                                         </span>
-                                    </Button>
+                                    </AnchorButton>
                                 </p>
                             </div>
                         </FlexRow>
